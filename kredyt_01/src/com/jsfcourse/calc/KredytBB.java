@@ -76,4 +76,18 @@ public class KredytBB {
 		
 	}
 
+	public String calc_AJAX() {
+		if (doTheMath()) {
+			ctx.addMessage(null, new FacesMessage(FacesMessage.SEVERITY_INFO, "Wynik: " + rata, null));
+		}
+		return null;
+	}
+
+	public String info() {
+		return "info";
+	}
+	
+	
+	
+	
 }
