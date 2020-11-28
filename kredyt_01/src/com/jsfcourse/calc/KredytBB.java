@@ -78,7 +78,7 @@ public class KredytBB {
 
 	public String calc_AJAX() {
 		if (doTheMath()) {
-			ctx.addMessage(null, new FacesMessage(FacesMessage.SEVERITY_INFO, "Wynik: " + rata, null));
+			ctx.addMessage(null, new FacesMessage(FacesMessage.SEVERITY_INFO, "Pojedyñcza rata wynosi: " + rata, null));
 		}
 		return null;
 	}
